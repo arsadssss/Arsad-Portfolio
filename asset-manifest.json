@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arsad-Portfolio/static/css/main.0276290e.css",
-    "main.js": "/Arsad-Portfolio/static/js/main.eb625589.js",
+    "main.css": "/Arsad-Portfolio/static/css/main.40871583.css",
+    "main.js": "/Arsad-Portfolio/static/js/main.c5199248.js",
     "static/js/453.1407b060.chunk.js": "/Arsad-Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/excellence.png": "/Arsad-Portfolio/static/media/excellence.2f325405673184960888.png",
     "static/media/Michigan.png": "/Arsad-Portfolio/static/media/Michigan.83366ee8b6661ca0354a.png",
@@ -14,6 +14,7 @@
     "static/media/2.png": "/Arsad-Portfolio/static/media/2.5514ae3035cfdf7ffda0.png",
     "static/media/virtual.png": "/Arsad-Portfolio/static/media/virtual.7c748250c42c7574c00a.png",
     "static/media/instagram.png": "/Arsad-Portfolio/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/arshlogo.jpg": "/Arsad-Portfolio/static/media/arshlogo.ffcd3feb918b037bbb9e.jpg",
     "static/media/email.png": "/Arsad-Portfolio/static/media/email.ec354f0f5fd6cb0b6f8e.png",
     "static/media/git.png": "/Arsad-Portfolio/static/media/git.87a186db3e4860237185.png",
     "static/media/twitter.png": "/Arsad-Portfolio/static/media/twitter.7e40f617aaa8eca864bb.png",
@@ -31,12 +32,12 @@
     "static/media/php.png": "/Arsad-Portfolio/static/media/php.d5685bdc82d7c77a89e6.png",
     "static/media/close.png": "/Arsad-Portfolio/static/media/close.aeec27d34d04f9b7e97f.png",
     "index.html": "/Arsad-Portfolio/index.html",
-    "main.0276290e.css.map": "/Arsad-Portfolio/static/css/main.0276290e.css.map",
-    "main.eb625589.js.map": "/Arsad-Portfolio/static/js/main.eb625589.js.map",
+    "main.40871583.css.map": "/Arsad-Portfolio/static/css/main.40871583.css.map",
+    "main.c5199248.js.map": "/Arsad-Portfolio/static/js/main.c5199248.js.map",
     "453.1407b060.chunk.js.map": "/Arsad-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0276290e.css",
-    "static/js/main.eb625589.js"
+    "static/css/main.40871583.css",
+    "static/js/main.c5199248.js"
   ]
 }

@@ -3,7 +3,7 @@ import cs from "./cs.module.css";
 
 const About = () => {
   return (
-    <div className={`w-full h-auto  px-8 py-6 mb-8 bg-white rounded-xl ${cs.crdShadow}`}>
+    <div className={`w-full h-auto px-8 py-6 mb-8 bg-white rounded-xl ${cs.crdShadow}`}>
         <h2 className="text-black md:text-2xl text-lg font-bold">Resume</h2>
             <div className="h-[4px] bg-gray-300 flex justify-start w-full rounded-md mb-5">
                 <div className={`h-[3px] bg-blue-700 flex justify-center items-center rounded-md mb-5 ${cs.devider}`} ></div>                       

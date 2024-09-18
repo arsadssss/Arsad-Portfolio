@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import arsad from "./images/2.png";
+import arshlogo from "./images/arshlogo.jpg";
 import facebook from "./images/facebook.png";
 import linkedin from "./images/linkedin.png";
 import linkedin1 from "./images/linkedin-1.png";
@@ -84,14 +85,20 @@ const Main = () => {
     }
   }
   return (
-    <div className={`w-full h-auto p-8 grid grid-cols-1 md:grid-cols-[350px_1fr] bg-[#e1e7eb] justify-start md:pr-36 relative items-start flex-wrap gap-8`}>
+    <div className={`w-full h-auto md:p-8 p-4 grid grid-cols-1 md:grid-cols-[350px_1fr] bg-[#e1e7eb] justify-start md:pr-36 relative items-start flex-wrap gap-8`}>
       {/* About Me Section */}
-      <div className={`md:w-[350px] w-full h-[100vh] bg-white  rounded-xl flex justify-center items-center md:sticky md:top-32 flex-col pb-8 mt-24 ${cs.crdShadow}`}>
-        <div className='w-full h-full relative flex justify-center items-center flex-col'>
+      <div className={`w-full h-12 cursor-pointer bg-white sticky top-4 z-20 rounded-sm hidden ${cs.crdShadow} ${cs.menu}`}>
+        <div className='w-full h-full flex justify-between items-center px-4'>
+          <img src={arshlogo} className='w-8 transition-all duration-500 object-cover rounded-full' alt="icons" />
+          <img onClick={handleMenu} src={openMenu == true ? hamburger : close} className='w-5 transition-all duration-500' alt="icons" />
+        </div>
+      </div>
+      <div className={`md:w-[350px] w-full md:h-[100vh] h-auto bg-white  rounded-xl flex justify-center items-center md:sticky md:top-32 flex-col pb-8 mt-24 ${cs.crdShadow}`}>
+        <div className='w-full h-full relative flex justify-start items-center flex-col'>
             <div className='bg-black w-[190px] h-auto rounded-xl absolute top-[-100px]'>
               <img src={arsad} className='w-auto h-auto rounded-xl' alt="Arsad Portfolio" />
             </div>
-            <div className='w-full h-full flex justify-start items-center flex-col pt-24'>
+            <div className='w-full md:h-full h-auto flex justify-start items-center flex-col md:pt-24 pt-2'>
             <h1 className='text-black text-center font-bold md:text-3xl text-2xl mt-5'>Md Arsad Ansari</h1>
             <div className='bg-gray-200 w-[170px] h-auto mt-4 rounded-sm py-1'>
                <h1 className='text-black text-center font-bold text-md'>Front-End Developer</h1>
@@ -160,7 +167,7 @@ const Main = () => {
       </div>
       
       {/* Contact Us Section */}
-      <div className='w-full h-auto md:mt-24 mt-5 flex justify-center items-center flex-col '>
+      <div className='w-full h-auto md:mt-24 mt-0 flex justify-center items-center flex-col '>
         <AllData itms={true} />
         
       </div>
@@ -202,11 +209,7 @@ const Main = () => {
               <p className='text-center mt-1'>Contact</p>
               </div>
       </div>
-      <div onClick={handleMenu} className={`w-8 h-8 cursor-pointer bg-white fixed top-4 right-4 rounded-sm hidden ${cs.crdShadow} ${cs.menu}`}>
-        <div className='w-full h-full flex justify-center items-center'>
-          <img src={openMenu == true ? hamburger : close} className='w-5 transition-all duration-500' alt="icons" />
-        </div>
-      </div>
+      
     </div>
   )
 }

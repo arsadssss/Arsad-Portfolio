@@ -48,13 +48,15 @@ const Contact = () => {
                     <div className="h-[2px] bg-blue-700 w-[75%] flex justify-center items-center rounded-md mb-5" ></div>                       
                 </div>
               <div className="col-md-6 card bg-dark frm mt25 cont-info">
-                      <form className='w-full'>
+                      <form className='w-full' action="https://api.web3forms.com/submit" method="POST">
+                      <input type="hidden" name="access_key" value="6f6e772d-decd-42c6-a23b-35a9450a7291"></input>
                         <div className="w-full mb-3 px-0">
                           <input
                             type="text"
                             className={`${cs.cntctdetails} w-full outline-none`}
                             id="exampleInputEmail1"
                             placeholder="Name"
+                            name='name'
                             aria-describedby="emailHelp"
                           />
                         </div>
@@ -63,6 +65,7 @@ const Contact = () => {
                             type="email"
                             className={`${cs.cntctdetails} w-full outline-none`}
                             placeholder="Email"
+                            name="email"
                             id="exampleInputPassword1"
                           />
                         </div>
@@ -70,8 +73,9 @@ const Contact = () => {
                           <input
                             type="text"
                             className={`${cs.cntctdetails} w-full outline-none`}
-                            id="exampleInputEmail2"
-                            placeholder="Subject Line"
+                            id="phone"
+                            placeholder="Phone"
+                            name='phone'
                             aria-describedby="emailHelp"
                           />
                         </div>
@@ -79,6 +83,7 @@ const Contact = () => {
                           <textarea
                             className={`${cs.cntctdetails} w-full outline-none`}
                             placeholder="Message"
+                            name="message"
                             id="exampleFormControlTextarea1"
                             rows="4"
                           ></textarea>

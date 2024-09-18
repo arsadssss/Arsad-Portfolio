@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arsad-Portfolio/static/css/main.40871583.css",
-    "main.js": "/Arsad-Portfolio/static/js/main.c5199248.js",
+    "main.js": "/Arsad-Portfolio/static/js/main.d56787b1.js",
     "static/js/453.1407b060.chunk.js": "/Arsad-Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/excellence.png": "/Arsad-Portfolio/static/media/excellence.2f325405673184960888.png",
     "static/media/Michigan.png": "/Arsad-Portfolio/static/media/Michigan.83366ee8b6661ca0354a.png",
@@ -33,11 +33,11 @@
     "static/media/close.png": "/Arsad-Portfolio/static/media/close.aeec27d34d04f9b7e97f.png",
     "index.html": "/Arsad-Portfolio/index.html",
     "main.40871583.css.map": "/Arsad-Portfolio/static/css/main.40871583.css.map",
-    "main.c5199248.js.map": "/Arsad-Portfolio/static/js/main.c5199248.js.map",
+    "main.d56787b1.js.map": "/Arsad-Portfolio/static/js/main.d56787b1.js.map",
     "453.1407b060.chunk.js.map": "/Arsad-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40871583.css",
-    "static/js/main.c5199248.js"
+    "static/js/main.d56787b1.js"
   ]
 }

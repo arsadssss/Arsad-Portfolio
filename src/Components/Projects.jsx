@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import cs from "./cs.module.css"
 import project1 from "./images/Projects/Campaign.png";
 import project2 from "./images/Projects/dashboard.png";
@@ -11,15 +11,16 @@ import project8 from "./images/Projects/UPS.png";
 import project9 from "./images/Projects/virtual.png";
 
 const Projects = () => {
+   
   return (
     <div className={`w-full h-auto  px-8 py-6 bg-white mb-8 rounded-xl ${cs.crdShadow}`}>
         <div className='w-full h-auto flex justify-between items-center flex-wrap'>
              <h2 className="text-black md:text-2xl text-lg font-bold">Projects</h2>
              <ul className='w-auto h-auto flex justify-center flex-wrap gap-4 list-none'>
-                <li className='border-b-2 border-[#ff7322]'>Landing Pages</li>
-                <li className='border-b-2 hover:border-[#ff7322]'>Email Templates</li>
-                <li className='border-b-2 hover:border-[#ff7322]'>ReactJs Projects</li>
-                <li className='border-b-2 hover:border-[#ff7322]'>Website</li>
+                <li className='border-b-2 text-sm text-black font-semibold border-[#ff7322]'>Landing Pages</li>
+                <li className='border-b-2 text-sm text-black font-semibold hover:border-[#ff7322]'>Email Templates</li>
+                <li className='border-b-2 text-sm text-black font-semibold hover:border-[#ff7322]'>ReactJs Projects</li>
+                <li className='border-b-2 text-sm text-black font-semibold hover:border-[#ff7322]'>Website</li>
              </ul>
         </div>
         <div className="h-1 bg-gray-300 flex justify-start md:w-[30%] w-full rounded-md mb-5">

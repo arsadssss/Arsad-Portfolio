@@ -3,7 +3,7 @@ import React from 'react'
 export default function Wordpress() {
   return (
     <div>
-      Hello WordPress Sites
+      WordPress Sites Comin Soon..
     </div>
   )
 }

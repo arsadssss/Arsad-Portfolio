@@ -41,7 +41,7 @@ const Projects = () => {
     <div className={`w-full h-auto  px-8 py-6 bg-white mb-8 rounded-xl ${cs.crdShadow}`}>
         <div className='w-full h-auto flex justify-between items-center flex-wrap'>
             <div className='basis-[30%]'>
-               <h2 className="text-black md:text-2xl text-lg font-bold">Projects</h2>
+               <h2 className="text-black md:text-2xl text-lg font-bold">Projectsss</h2>
                <div className="h-1 w-full bg-gray-300 flex justify-start rounded-md mb-5">
                    <div className={`h-[3px] bg-blue-700 flex justify-center items-center rounded-md mb-5 ${cs.devider}`} ></div>                       
                </div>

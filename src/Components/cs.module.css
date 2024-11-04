@@ -83,9 +83,7 @@ html ::-webkit-scrollbar-thumb{
     background-color: #cccccc;
     box-shadow: 5px 5px 0px #fc2010;
 }
-.projectImg{
-    box-shadow: 0px 0px 4px #a0a0a0;
-}
+
 .projectImg:hover{
     box-shadow: 10px 10px 0px var(--blues);
 }
@@ -173,6 +171,12 @@ html ::-webkit-scrollbar-thumb{
     animation-timing-function: ease-in-out;
     animation-delay: 50ms;
     animation-fill-mode: forwards;
+}
+.projectscard{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px #4646464d;
 }
 @keyframes progresbar {
     0%{

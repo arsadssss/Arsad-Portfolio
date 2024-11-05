@@ -29,12 +29,13 @@ const Projects = () => {
     }else if(proVal === "Landing"){
         renderPro = <Landing />
     }
-    else if(proVal === "ReactProjects"){
-        renderPro = <ReactProjects />
-    }
     else if(proVal === "Wordpress"){
         renderPro = <Wordpress />
-    }else{
+    }
+    else if(proVal === "Projects"){
+        renderPro = <ReactProjects />
+    }
+    else{
         renderPro = <EmailTemplate />
     }
   return (

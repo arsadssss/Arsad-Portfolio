@@ -11,14 +11,14 @@ const navItems =
     "val": "Landing",
    },
     {
-     id : 3,
-    "name": "React Projects",
-    "val": "ReactProjects"
-   },
-    {
-    id : 4,
+    id : 3,
     "name": "WordPress Site",
     "val": "Wordpress"
-   }
+   },
+   {
+    id : 4,
+   "name": "Projects",
+   "val": "Projects"
+  },
 ];
 export default navItems;
